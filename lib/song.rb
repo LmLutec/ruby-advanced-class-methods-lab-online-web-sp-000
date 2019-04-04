@@ -56,7 +56,6 @@ class Song
     @song.name = new_file[1] 
     @song.artist_name = new_file[0]  
     @song.save  
-   
   end  
 
   def save
